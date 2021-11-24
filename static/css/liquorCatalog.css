@@ -1,0 +1,25 @@
+.liquor-catalog {
+  margin-top: 50px;
+}
+.liquor-catalog-element {
+  display: flex;
+  margin-top: 20px;
+}
+
+.liquor-image img {
+  width: 300px;
+  height: 300px;
+}
+
+.liquor-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.liquor-description {
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 30px;
+}

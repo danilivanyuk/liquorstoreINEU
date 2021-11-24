@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Liquor store with best prices">
+    <meta name="keywords" content="liquor, liquor store, store">
+    <link rel="stylesheet" href="./static/css/contact.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="stylesheet" href="./static/css/navbar.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./static/css/mobile.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <title>Liquor Store</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="./home.html">ЛикерСтор</a></h1>
+            <ul>
+                <li><a class="current" href="./home.html">Главная</a></li>
+                <li><a href="./liquorCatalog.html">Каталог</a></li>
+                <li><a href="./about.html">О нас</a></li>
+                <li><a href="./contact.html">Связаться</a></li>
+            </ul>                
+        </div>
+    </nav>
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Связаться</span></h1>
+            <p>Пожалуйста заполните форму чтобы мы с вами связались</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Электронная почта</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Подтвердить</button>
+            </form>
+        </div>
+    </section>
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-map-signs fa-3x"></i>
+                <h3>Местоположение</h3>
+                <p>Ломова 45, Павлодар</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Телефон</h3>
+                <p>(517) 111-1111</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Электронная почта</h3>
+                <p>LiquorStore@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <div class="clr"></div>
+    <footer id="main-footer">
+        <p>ЛикерСтор &copy; 2020, Все права защищены</p>
+    </footer>
+</body>
+
+</html>

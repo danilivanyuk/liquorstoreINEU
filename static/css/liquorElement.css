@@ -1,0 +1,23 @@
+.liquor {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.liquor-title p {
+  font-size: 52px;
+  font-weight: 500;
+  margin: 40px 0 30px;
+}
+
+.liquor-image img {
+  width: 450px;
+  height: 450px;
+}
+
+.liquor-description p {
+  font-size: 32px;
+}
+
+.btn {
+  margin-top: 20px;
+}

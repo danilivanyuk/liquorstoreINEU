@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+/* Utility classes */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary{
+    color: #79d70f;
+}
+
+.lead{
+    font-size: 22px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #393e46;
+    padding: 13px 20px;
+    border: none;
+    cursor: ponter;
+}
+
+.btn:hover{
+    background: #79d70f;
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color: #222831
+}
+
+.bg-dark{
+    background: #393e46;
+    color: #fff;
+}
+
+.bg-primary{
+    background: #79d70f;
+    color: #222831;
+}
+
+.clr{
+    clear: both;
+}
+
+.l-heading{
+    font-size: 40px;
+}
+
+/* Padding */
+
+.py-1{ padding: 10px 0; }
+.py-2{ padding: 20px 0; }
+.py-3{ padding: 30px 0; }
+
+/* Showcase */
+#showcase{
+    background: url('../images/alcohol-architecture-bar-beer-260922.jpg') no-repeat
+    center center/cover;
+    height: 650px;
+}
+
+#showcase .showcase-content{
+    color: #eeeeee;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+    margin-bottom: 2%;
+}
+
+/* Home Info */
+
+#home-info{
+    height: 450px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../images/alcohol-alcoholic-background-beer-301692.jpg')
+    no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+/* Features */
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+
+#main-footer{
+    margin-top: 40px;
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}

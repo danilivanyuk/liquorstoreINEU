@@ -1,0 +1,38 @@
+/* Navbar */
+
+#navbar{
+    background-color: #222831;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a{
+    color: #eeeeee;
+}
+
+#navbar .logo{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current{
+    background: #393e46;
+    color: #79d70f;
+}
